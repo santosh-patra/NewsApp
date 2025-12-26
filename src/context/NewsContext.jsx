@@ -15,7 +15,7 @@ const NewsContextProvider = ({ children }) => {
 
         setLoading(true)
         try {
-            const response = await api.get(`${url}&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`)
+            const response = await api.get(`${url}&apiKey=6d89567ccdd24b8b88ed3eb50090e173`)
             // console.log('fetchNewsresponse--->', response.data)
             setLoading(false)
 
