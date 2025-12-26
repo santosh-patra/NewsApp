@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react"
 import Wrapper from "./Wrapper"
 import { useNewsContext } from "../context/NewsContext"
 
